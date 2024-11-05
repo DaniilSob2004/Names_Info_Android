@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="22dp"
+    tools:context=".fragments.NameDetailFragment">
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:text="Daniil"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="5dp"
+            android:text="Dates: " />
+
+        <TextView
+            android:id="@+id/datesTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/darker_gray"
+            android:text="12.01, 14, 07, 12.12" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:text="Имя Olivia, происходящее от латинского 'oliva', означает 'оливковое дерево', которое является символом мира и изобилия. Люди с этим именем часто являются чувствительными и творческими личностями. Оливии обладают развитым чувством прекрасного и могут вдохновлять окружающих своим артистизмом. Они также умеют находить общий язык с людьми и строить крепкие связи. Оливии обычно отличаются хорошим вкусом и умением создавать красоту в окружающем мире, что делает их привлекательными и интересными личностями."
+        android:lineSpacingExtra="4dp" />
+
+</LinearLayout>
